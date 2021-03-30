@@ -1,0 +1,148 @@
+
+#cookie-popup {
+  position: fixed;
+  z-index: 9999;
+  right: 30px;
+  bottom: 120px;
+  width: 400px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #131313;
+    background-color: rgba(0,0,0,0.8);
+  color: #fff;
+}
+
+#cookie-popup p:first-child {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #eee;
+}
+
+#cookie-popup p:nth-child(2) {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+#cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+}
+
+
+  
+       @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+           
+           #cookie-popup {
+
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #131313;
+               background-color: rgba(0,0,0,0.9);
+  color: #eee;
+}
+  
+           
+           
+           #cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background-color: #000;
+               background-color: rgba(0,0,0,0.8);
+  border: 1px solid #fff;
+}
+    
+    
+    }
+
+
+
+ @media (min-width: 375px) and (max-width: 812px) {
+     
+     
+     
+     
+             #cookie-popup {
+
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #131313;
+               background-color: rgba(0,0,0,0.9);
+  color: #eee;
+}
+  
+           
+           
+           #cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background-color: #000;
+               background-color: rgba(0,0,0,0.8);
+  border: 1px solid #fff;
+}
+    
+    
+     
+     
+}
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+     
+     
+     
+                  #cookie-popup {
+
+  right: 1px;
+  bottom: 100px;
+  width: 50%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #131313;
+               background-color: rgba(0,0,0,0.9);
+  color: #eee;
+}
+  
+           
+           
+           #cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background-color: #000;
+               background-color: rgba(0,0,0,0.8);
+  border: 1px solid #fff;
+}
+   
+     
+     
+}
